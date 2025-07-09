@@ -1,8 +1,8 @@
 # Angelina Shutro
 
 ### Contact information:
-**Phone:** +375 33 9047474   
-**E-mail:** an.shutro@gmail.com   
+**Phone:** +375 33 9047474  
+**E-mail:** an.shutro@gmail.com  
 **Telegram:** [@an_shutro](https://t.me/an_shutro)  
 **GitHub:** [angelina-shutro](https://github.com/angelina-shutro)  
 [LinkedIn](https://by.linkedin.com/in/angelina-shutro)  
@@ -51,5 +51,5 @@ RS School Course "JavaScript/Front-end. Stage 0" *(in progress)*
 ---
 
 ### Languages:
-* English - [StreamLine Language School English test result](https://cert.str.by/streamline-certificate/EACF17CCB60AFE2ECEABE2D55302EC6B): Intermediate (B1)
-* Russian - Native
+* **English** - [StreamLine Language School English test result](https://cert.str.by/streamline-certificate/EACF17CCB60AFE2ECEABE2D55302EC6B): Intermediate (B1)
+* **Russian** - Native
