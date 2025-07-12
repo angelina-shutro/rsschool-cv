@@ -1,1 +1,1 @@
-https://angelina-shutro.github.io/rsschool-cv/cv
+https://angelina-shutro.github.io/rsschool-cv/
