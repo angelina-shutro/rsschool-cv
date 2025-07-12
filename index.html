@@ -1,17 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV#2. HTML, CSS & Git Basics</title>
-    <link rel="favicon" type="image/x-icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>Angelina Shutro</h1>
+    <div class="container">
+        <div class="first-block">
+            <div class="left-side">
+                <img src="photo_user.png" width=300 height=300 alt="Photo_user">
+            </div>
+            <div class="right-side">
+                <div class="name">
+                    <h1>Angelina Shutro</h1>
+                    <p class="profession">UX/UI Designer</p>
+                </div>
+            </div>
+        </div>
+        <div class="second-block">
+            <div class="second-left-side">
+                <div class="left-line">
+                    <img src="left-line.svg" alt="Left line">
+                </div>
+                <div class="box">
+                    <div class="name-block">Contact information:</div>
+                    <div class="description"><b>Phone:</b>+375(33)904-74-74</div>
+                    <div class="description"><b>E-mail:</b><a href="mailto:an.shutro@gmail.com">an.shutro@gmail.com</a>
+                        <div class="description"><b>Telegram:</b><a href="https://t.me/an_shutro">@an_shutro</a></div>
+                        <div class="description"><b>GitHub:</b><a
+                                href="https://github.com/angelina-shutro">angelina-shutro</a></div>
+                        <div class="description"><a href="https://by.linkedin.com/in/angelina-shutro">LinkedIn</a></div>
+                        <div class="description"><a href="https://www.behance.net/anshutro">Behance</a></div>
+                    </div>
+                </div>
+                <div class="left-line">
+                    <img src="left-line.svg" alt="Left line">
+                </div>
+                <div class="box">
+                    <div class="name-block">Skills:</div>
+                    <div class="description">
+                        <ul>
+                            <li>HTML5, CSS3</li>
+                            <li>JavaScript Basics</li>
+                            <li>Git</li>
+                            <li>VS Code</li>
+                            <li>Adobe Photoshop, Illustrator</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="left-line">
+                    <img src="left-line.svg" alt="Left line">
+                </div>
+
+                <div class="box">
+                    <div class="name-block">Languages:</div>
+                    <div class="description">
+                        <ul>
+                            <li><b>English</b> - <a
+                                    href="https://cert.str.by/streamline-certificate/EACF17CCB60AFE2ECEABE2D55302EC6B">StreamLine
+                                    Language School English test result</a>: Intermediate (B1)</li>
+                            <li><b>Russian</b> - Native</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="second-right-side">
+
+                <div class="right-line">
+                    <img src="right-line.svg" alt="Left line">
+                </div>
+
+                <div class="name-block">About me:</div>
+                <div class="second-description">I am a UX/UI designer with hands-on experience creating user interfaces
+                    with a
+                    focus on usability, visual aesthetics and interaction logic. I’ve worked with layouts for web and
+                    mobile apps, thinking through user scenarios, visual hierarchy and behavioural patterns.
+                    To better understand the technical side of implementing my ideas and interact with developers more
+                    effectively, I started to learn the basics of frontend development - HTML, CSS and JavaScript. This
+                    process is already helping me to be more conscious about designing interfaces, taking into account
+                    layout constraints and realistic design.
+                    Studying code has become not only a tool for me to strengthen my design skills, but also a source of
+                    new interest. In the future, I am considering the possibility of professional development towards
+                    front-end development as a logical continuation of my path in the digital sphere.</div>
+
+                <div class="right-line">
+                    <img src="right-line.svg" alt="Left line">
+                </div>
+
+                <div class="name-block">Code example:</div>
+                <div class="second-description">
+                    <pre>
+function createPhoneNumber(numbers) {
+let areaCode = "(" + numbers[0] + numbers[1] + numbers[2] + ")";
+let firstPart = " " + numbers[3] + numbers[4] + numbers[5];
+let secondPart = "-" + numbers[6] + numbers[7] + numbers[8] + numbers[9];
+
+let phoneNumber = areaCode + firstPart + secondPart;
+
+return phoneNumber;
+}</pre>
+                </div>
+
+                <div class="right-line">
+                    <img src="right-line.svg" alt="Left line">
+                </div>
+
+                <div class="name-block">Experience:</div>
+                <div class="second-description">RS School Course “JavaScript/Front-end. Stage 0” <i>(in
+                        progress)</i></div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
