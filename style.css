@@ -1,0 +1,110 @@
+body {
+    background-color: #FFF5FB;
+}
+
+.container {
+    background-color: #fff;
+    display: block;
+    width: 1100px;
+    margin: 40px auto;
+    padding: 50px 40px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.first-block {
+    display: flex;
+    gap: 80px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Zen Dots", sans-serif;
+    color: #222;
+    margin: 0 0 20px 0;
+}
+
+.profession {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: #8F8F8F;
+    margin: 0;
+}
+
+.left-side {
+    width: 300px;
+    height: 300px;
+}
+
+.right-side {
+    width: 640px;
+    margin: 104px 0;
+}
+
+.second-block {
+    display: flex;
+    gap: 80px;
+    margin: 60px 0 0 0;
+}
+
+.name-block {
+    font-size: 20px;
+    font-family: "Zen Dots", sans-serif;
+    color: #222;
+    margin: 0 0 15px 0;
+}
+
+p {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #222;
+}
+
+b {
+    margin: 0 5px 0 0;
+}
+
+.description {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #222;
+    margin: 5px 0;
+}
+
+.second-right-side {
+    width: 640px;
+}
+
+.second-description {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    color: #222;
+    margin: 5px 0 40px 0;
+}
+
+.second-left-side {
+    width: 300px;
+}
+
+.box {
+    margin: 0 0 40px 0;
+}
+
+ul {
+    padding: 0 0 0 20px;
+    line-height: 150%;
+}
+
+.left-line {
+    margin: 0 0 20px 0;
+    display: flex;
+}
+
+.right-line {
+    margin: 0 0 20px 0;
+    display: flex;
+}
