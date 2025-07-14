@@ -6,14 +6,29 @@ body {
     background-color: #fff;
     display: block;
     width: 1100px;
-    margin: 40px auto;
-    padding: 50px 40px;
+    margin: 40px auto 0 auto;
+    padding: 50px 40px 0 40px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 .first-block {
     display: flex;
     gap: 80px;
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.nav-list {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #222;
+    text-decoration: none;
 }
 
 h1 {
@@ -38,7 +53,7 @@ h1 {
 
 .right-side {
     width: 640px;
-    margin: 104px 0;
+    margin: auto 0;
 }
 
 .second-block {
@@ -50,6 +65,7 @@ h1 {
 .name-block {
     font-size: 20px;
     font-family: "Zen Dots", sans-serif;
+    font-weight: 500;
     color: #222;
     margin: 0 0 15px 0;
 }
@@ -63,6 +79,11 @@ p {
 
 b {
     margin: 0 5px 0 0;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
 }
 
 .description {
@@ -107,4 +128,43 @@ ul {
 .right-line {
     margin: 0 0 20px 0;
     display: flex;
+}
+
+.footer {
+    padding: 0 40px;
+    margin: 0 auto 40px auto;
+    display: flex;
+    height: 80px;
+    width: 1100px;
+    background-color: #FDA8DA;
+    align-items: center;
+}
+
+.github {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.github_name {
+    font-size: 20px;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 500;
+    color: #222;
+}
+
+.github_icon {
+    margin-right: 10px;
+}
+
+.rs_logo {
+    justify-content: flex-start;
+}
+
+.year {
+    font-size: 20px;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 500;
+    color: #222;
+    justify-content: flex-end;
 }
